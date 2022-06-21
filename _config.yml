@@ -9,12 +9,12 @@ exclude:
   - "/vendor/"
 
 # Site settings
-title: Centrarium
-subtitle: "A simple yet classy theme for your Jekyll website or blog"
-email: blcentra@gmail.com
-name: Ben Centra
+title: A Poorly Written Blog
+subtitle: "A description to tell people that I'm writting DevOps focused articles"
+email: frosty@frosty.com
+name: basqk
 description: >
-  A simple yet classy theme for your Jekyll website or blog.
+  A description to tell people that I'm writting DevOps focused articles.
 # Base URL of site (i.e. /blog). It should always start with a slash,
 # and never end with a slash. Set it to a blank value if hosting at the
 # root of your server.
@@ -32,7 +32,11 @@ highlightjs_theme: "monokai-sublime"
 # https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
 pagination:
   enabled: true
+<<<<<<< HEAD
+  per_page: 3
+=======
   per_page: 5
+>>>>>>> main
   permalink: "/page/:num/"
   sort_reverse: true
 
